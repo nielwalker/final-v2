@@ -8,22 +8,22 @@
     <script src="https://kit.fontawesome.com/0c7f44f67c.js" crossorigin="anonymous"></script>
 </head>
 <body>
+    <div class="container">
+        <nav class="nav-bars">
+            <img src="images/logo.png" class="logo"/>
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Portfolio</a></li>
+                <li><a href="#portfolio">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-x" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+    </div>
     <div id="header">
         
-        <div class="container">
-            <nav>
-                <img src="images/logo.png" class="logo"/>
-                <ul id="sidemenu">
-                    <li><a href="#header">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#services">Portfolio</a></li>
-                    <li><a href="#portfolio">Services</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                    <i class="fa-solid fa-x" onclick="closemenu()"></i>
-                </ul>
-                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
-            </nav>
-        </div>
         <div class="header-text">
                 
             <h1>Hi, I'm <span>Niel R. Caspillo</span></h1>
@@ -82,111 +82,111 @@
 
 <!----------------services------------------->
 
-<div id="services">
-    <div class="contatiner">
-        <h1 class="sub-title">My Services</h1>
-        <div class="services-list">
-            <div>
-                <i class="fa-solid fa-code"></i>
-                <h2>Web Design</h2>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed 
-                    do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                </p>
-                <a href="#">Learn More</a>
-            </div>
-            <div>
-                <i class="fa-solid fa-crop"></i>
-                <h2>UI.UX Design</h2>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed 
-                    do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                </p>
-                <a href="#">Learn More</a>
-            </div>
-            <div>
-                <i class="fa-brands fa-app-store"></i>
-                <h2>App Design</h2>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed 
-                    do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                </p>
-                <a href="#">Learn More</a>
-            </div>
-
-        </div>
-    </div>
-</div>
-
-<!----------------portfolio------------------->
-
-<div id="portfolio">
-    <div class="container">
-        <h1 class="sub-title">My Work</h1>
-        <div class="work-list">
-            <div class="work">
-                <img src="images/camping.jpg" >
-                <div class="layer">
-                    <h3>Camping</h3>
-                    <p>Exploring New Things.</p>
-                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                </div>
-            </div>
-            <div class="work">
-                <img src="images/computer-games.jpg" >
-                <div class="layer">
-                    <h3>Computer Games</h3>
-                    <p>Playing Computer Games to
-                        have some fun.
+    <div id="services">
+        <div class="contatiner">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed 
+                        do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                     </p>
-                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    <a href="#">Learn More</a>
                 </div>
-            </div>
-            <div class="work">
-                <img src="images/motorcycle.jpg" >
-                <div class="layer">
-                    <h3>Adventure</h3>
-                    <p>Going to Relaxing place 
-                        is a nice part of exploring.
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI.UX Design</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed 
+                        do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                     </p>
-                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    <a href="#">Learn More</a>
                 </div>
-            </div>
-        </div>
-        <a href="#" class="btn">See More</a>
-    </div>
-</div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed 
+                        do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
 
-<!----------------contact------------------->
-<div id="id">
-    <div class="container">
-        <div class="row">
-            <div class="contact-left">
-                <h1 class="sub-title">Contact Me</h1>
-                <p><i class="fa-solid fa-paper-plane"></i> nielcaspillo41201@gmail.com</p>
-                <p><i class="fa-solid fa-phone"></i> 09559284872</p>
-                <div class="social-icons">
-                    <a href="https://www.facebook.com/nielwalkers/"><i class="fa-brands fa-facebook-f"></i></a>
-                    <a href="https://www.instagram.com/nielwalkers/"><i class="fa-brands fa-instagram"></i></a>
-                    <a href="https://mail.yahoo.com/d/folders/1"><i class="fa-brands fa-yahoo"></i></a>
-                    <a href="https://github.com/nielwalker"><i class="fa-brands fa-github"></i></a>
-                </div>
-                <a href="resume.pdf" download class="btn btn2">Download CV</a>
-            </div>
-            <div class="contact-right">
-                <form>
-                    <input type="text" name="Name" placeholder="Your Name" required>
-                    <input type="email" name="Email" placeholder="Your Email" required>
-                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
-                    <button type="submit" class="btn btn2" >Submit</button>
-                </form>
             </div>
         </div>
     </div>
-    <div class="copyright">
-        <p>Copyright © Niel R. Caspillo </p>
+
+    <!----------------portfolio------------------->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/camping.jpg" >
+                    <div class="layer">
+                        <h3>Camping</h3>
+                        <p>Exploring New Things.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/computer-games.jpg" >
+                    <div class="layer">
+                        <h3>Computer Games</h3>
+                        <p>Playing Computer Games to
+                            have some fun.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/motorcycle.jpg" >
+                    <div class="layer">
+                        <h3>Adventure</h3>
+                        <p>Going to Relaxing place 
+                            is a nice part of exploring.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
     </div>
-</div>
+
+    <!----------------contact------------------->
+    <div id="id">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> nielcaspillo41201@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> 09559284872</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/nielwalkers/"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/nielwalkers/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://mail.yahoo.com/d/folders/1"><i class="fa-brands fa-yahoo"></i></a>
+                        <a href="https://github.com/nielwalker"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="resume.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2" >Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Niel R. Caspillo </p>
+        </div>
+    </div>
 
 
 
