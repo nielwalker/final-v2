@@ -20,9 +20,13 @@ body{
 
 #header{
     width: 100%;
-    height: 80vh;
+    height: 100vh;
+    border: solid 1px black;
 }
 
+#header .header-text{
+    display: block;
+}
 
 #header .container{
     position: sticky;
@@ -309,8 +313,9 @@ nav ul li a:hover::after{
     padding: 14px 50px;
     border-radius: 6px;
     text-decoration: none;
-    color: white;
+    color: orange;
     transition: background 0.5s;
+    z-index: 1500;
 }
 
 .btn:hover{
